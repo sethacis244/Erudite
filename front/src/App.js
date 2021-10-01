@@ -6,6 +6,7 @@ function App() {
   const routes = useRouts(userType)
   return (
           <div className={styles.main}>
+              <header className={styles.header}>User type is {userType}</header>
               <NavBar userType={userType}/>
               <div className={styles.routes}>{routes}</div>
               <footer>just a footer</footer>

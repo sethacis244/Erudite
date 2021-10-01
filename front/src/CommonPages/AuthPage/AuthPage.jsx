@@ -1,7 +1,9 @@
 import React from 'react'
-
+import styles from './AuthPage.module.css'
 export const AuthPage = () => {
     return (
-        <h1>Auth page</h1>
+        <form action="" className={styles.form}>
+
+        </form>
     )
 }
