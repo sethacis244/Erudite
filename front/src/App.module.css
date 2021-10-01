@@ -1,0 +1,18 @@
+.main{
+    height:100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas:
+            "n r"
+            "f f";
+    grid-template-rows: 5fr 1fr;
+    border: 1px solid black;
+}
+footer{
+    grid-area:f;
+    border: 1px solid black;
+}
+.routes{
+    grid-area:r;
+    border: 1px solid black;
+}
